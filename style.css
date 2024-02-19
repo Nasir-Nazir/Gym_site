@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Fasthand&family=Poppins:ital,wght@0,200;0,400;0,500;1,100;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Alkalami', serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
+}
+
+.left {
+    font-family: 'Alkalami', serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.left img {
+    width: 70px;
+    /* filter: invert(100%); */
+    margin-left: 45px;
+}
+
+.left div {
+    FONT-SIZE: 22PX;
+    text-align: center;
+    LINE-HEIGHT: 2PX;
+    margin-left: 37px;
+
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 55px auto;
+    /* border: 2px solid blue */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    
+}
+
+.navbar li a.active {
+    color: white;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 250, 250);
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+    top: 56px;
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    /* margin-top: 10px; */
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Alkalami', serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(100, 89, 89);
+}
+
+.container {
+    /* border: 2px solid rgb(187, 187, 187); */
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin-top: 110px;
+    margin-left: 120px; 
+    /* margin-top: 30px;
+    width: 65%;
+    margin: 65px auto;
+    display: block;
+    width: 40%;
+    */
+
+}
+/* .container h1:hover{
+    /* border-bottom: 2px solid black; */
+    /* border-width: 3px; */
+   
+
+
+.form-group input {
+    text-align: center;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    margin: 13px auto;
+    padding: 15px;
+    font-style: italic;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.container h1 {
+    text-align: center;
+    /* border-bottom: 2px solid gray; */
+    
+}
+
+.container button {
+    display: block;
+    width: 52%;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.form-group input:hover{
+    box-shadow: 0 0 5px 4px #fdfdfd;
+}
+::placeholder :hover{
+    color: black;
+}
